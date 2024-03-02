@@ -23,8 +23,17 @@
 ```html
 <host-element>
     #shadow
-        <input type=number be-passing='of Number|value to #slide-show on input.'>
+        <input type=number be-passing='of value to #slide-show on input.'>
         ...
         <my-carousel id=slide-show></my-carousel>
+</host-element>
+```
+
+```html
+<host-element>
+    #shadow
+        <input type=number be-passing='of value to my-carousel on input.'>
+        ...
+        <my-carousel></my-carousel>
 </host-element>
 ```
